@@ -6,10 +6,15 @@ public class TableUtilities {
     }
 
     public static String getLargeMultiplicationTable() {
+
         return null;
     }
 
     public static String getMultiplicationTable(int tableSize) {
-        return null;
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < tableSize; i++){
+            sb.append(i);
+        }
+        return sb.toString();
     }
 }
